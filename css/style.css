@@ -1,0 +1,27 @@
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100vw - 100px); /* this is a maths calc to give a precise value */
+    border: 1px solid black;
+}
+
+.top-section {
+    background-image: url(https://picsum.photos/seed/picsum/200/300);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.grid-item {
+
+    border: 20px solid rgb(243, 189, 174);
+   
+  }
