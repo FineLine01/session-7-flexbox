@@ -8,10 +8,11 @@ body {
     width: calc(100vw - 100px); /* this is a maths calc to give a precise value */
     border: 10px solid rgb(15, 106, 182);
     color: rgb(228, 129, 8);
+    text-align: center;
 }
 
 .top-section {
-    background-image: url(https://images.pexels.com/photos/4482896/pexels-photo-4482896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(https://images.pexels.com/photos/4482896/pexels-photo-4482896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); 
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -40,10 +41,11 @@ body {
 .grid-item > a {
     display: flex;
     color: crimson;
+    text-decoration: none;
 }
 
 .grid-item > img {
- width: 100%;
+  width: 50%;
 }
 
 .grid-item > h3 {
