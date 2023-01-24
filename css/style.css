@@ -1,17 +1,20 @@
 body {
-    background-color:rgb(55, 64, 74);
+    background-color:rgb(249, 100, 0);
+    font-family: 'Lato', sans-serif;
+    font-family: 'Unbounded', cursive;
 }
 
 .wrapper {
     margin-left: auto;
     margin-right: auto;
     width: calc(100vw - 100px); /* this is a maths calc to give a precise value */
-    border: 10px solid rgb(15, 106, 182);
-    color: rgb(228, 129, 8);
+    border: 10px solid rgb(255, 255, 255);
+    color: rgb(0, 69, 92);
     text-align: center;
 }
 
 .top-section {
+    font-size: 30px;
     background-image: url(https://images.pexels.com/photos/4482896/pexels-photo-4482896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); 
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,10 +26,11 @@ body {
 }
 
 .top-section {
-    background-color: rgb(55, 64, 74);
+    background-color: rgb(249, 100, 0);
 }
 
 .grid {
+    margin: 10px;
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -34,13 +38,13 @@ body {
 }
 
 .grid-item {
-
-    border: 10px solid rgb(15, 106, 182);
+    margin: 10px;
+    border: 10px solid rgb(255, 255, 255);
 }
 
 .grid-item > a {
     display: flex;
-    color: crimson;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -50,4 +54,12 @@ body {
 
 .grid-item > h3 {
     margin-top: 0;
+}
+.top-section > div > h1 { 
+    display: block;
+    height: 40vh;
+}
+
+.top-section > div> h2 {
+    display: block;
 }
